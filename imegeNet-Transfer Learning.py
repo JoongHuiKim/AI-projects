@@ -1,4 +1,5 @@
 # 1. load pre-trained imeagenet date Vgg16 model without fully-connected layer
+#include_top = False --> fully connected layer 
 from tensorflow import keras
 
 base_model = keras.applications.VGG16(
